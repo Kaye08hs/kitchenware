@@ -1,0 +1,292 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%; 
+    display: flex;
+    flex-direction: column; 
+    height: 100%; 
+    overflow: hidden; 
+}
+
+.header {
+    background-color: #097B7B;
+    color: white;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 10px solid #C94700;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.header .d-flex {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.header img {
+    height: 81px;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+
+.header h1 {
+    font-size: 30px;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 0;
+  
+}
+
+.header .text-white {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 40px;
+    margin-top: 6px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1rem;
+}
+
+/* Align 'View Transactions' and Profile icon at the far right */
+
+
+
+.banner {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+   
+}
+
+
+.overlay {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+    padding: 40px 20px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border:none; /* Orange border with transparency */
+    box-sizing: border-box; /* Ensures the border doesn't affect padding */
+    z-index: -1; /* Places it behind the text */
+    background-color: #333333;
+    opacity: 30%;
+  
+}
+
+
+.button-group {
+    position: absolute;
+    bottom: 100px; /* Distance from the bottom of the banner */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 150px;
+    
+}
+
+.button-group .btn {
+    padding: 10px 30px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: #C94700 !important;
+    color: white !important;
+  
+}
+.button-orange:hover{
+
+    color:#D2992F
+}
+
+
+
+.main-text {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+
+}
+
+.sub-text {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1rem;
+    margin: 10px 0;
+   
+}
+
+
+.btn-custom {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 1rem;
+    padding: 10px 30px;
+    border-radius: 30px; 
+    cursor: pointer;
+    font-weight: bold;
+    border: none; 
+    position:absolute; 
+    bottom: 90px;
+
+    
+}
+
+.btn-custom:hover {
+    background-color: #4B2F15;
+    color:#ffffff;
+}
+
+.text-border {
+    text-shadow: 2px 1px  #ffffff ;
+   
+    
+}
+.footer {
+    background-color:#097B7B;
+    color: white;
+    text-align: center;
+    padding: 45px;
+    border-top: 10px solid #C94700;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    height: 10%; /* Footer takes 10% of the screen height */
+}
+
+.dropdown{
+    display: flex;
+    margin-left: 800px;
+    color: white;
+}
+.fa{
+    color: white;
+}
+.fa:hover{
+    color: white;
+}
+
+.logo-box img {
+    height: 50px;
+}
+
+.dropdown-menu {
+    background-color: #f57c00;
+    border: none;
+}
+
+.-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #e65100;
+}
+
+.img-dashboard {
+    text-align: center;
+    padding: 50px 0;
+}
+
+h1.overlay {
+    font-weight: bold;
+    color: #00695c;
+}
+
+.modal-content.square-modal {
+    width: 100%;  /* Set width as percentage of the parent container */
+    height: 100%;  /* Set height as percentage of the parent container */
+    max-width: none;  /* Remove default Bootstrap width limit */
+    max-height: none;  /* Remove default Bootstrap height limit */ /* Ensure the modal content takes up the full height */
+    padding: 3%; /* Remove default Bootstrap height limit */
+    margin: auto;  /* Center the modal */
+}
+
+
+.modal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* Take up full viewport height */
+}
+
+
+
+@media (max-width: 390px) {
+    .header h1 {
+        font-size: 0.7rem; /* Adjusted for smaller width */
+        margin-right: -4vh;
+    }
+    .header img {
+        height: 10vh;
+        margin-left: -1vh;
+    }
+    .header-d-flex{
+        margin: 0;
+    }
+
+    .header .text-white {
+        font-size: 0.7rem;
+    }
+  
+    .banner {   
+        height: 100vh; /* Full-screen height */
+    }
+    .banner-image{
+        font-size: 0.7rem;
+    }
+
+    .overlay {
+        padding: 20px;
+        max-width: 90%; /* Adjust width for narrow screens */
+    }
+
+    .main-text {
+        font-size: 1.5rem; /* Smaller text for title */
+    }
+
+    .sub-text {
+        font-size: 0.8rem; /* Adjust subtitle text */
+    }
+
+    .button-group {
+        gap: 10px; /* Reduce gap between buttons */
+    }
+
+    .button-group .btn {
+        width: 100%; /* Smaller button size for mobile */
+        padding: 10px 20px;
+        font-size: 0.7rem; /* Slightly smaller font */
+    }
+    .dropdown{
+        display: flex;
+        margin-left: 8vh;
+        color: white;
+    }
+    
+}

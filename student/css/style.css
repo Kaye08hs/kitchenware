@@ -1,0 +1,323 @@
+.header{
+	height: 100px;
+	background-color: #097B7B;
+	border-bottom: 10px solid #C94700;
+	padding: 5px 45px;
+}
+.logo-box{
+	position: relative;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.header img{
+	width: 80px;
+	height: 100%;
+	display: inline;
+
+}
+.header .logo-box span{
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 30px;
+	color: #FFFF;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+.footer{
+	height: 50px;
+	background-color: #097B7B;
+	border-top: 10px solid #C94700;
+	padding: 45px 25px;
+
+}
+.img-box{
+	background-image: url('../img/bg-img.png');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 550px;
+}
+.logIn-box h1{
+	color:#000;
+	font-family: "Josefin Sans", sans-serif;
+    font-size: 35px;
+    padding-top: 20px;
+    font-weight:bold ;
+    color:#097B7B;
+}
+.logIn-container{
+	background-color: #C94700;
+	border-radius: 10px;
+	width: 450px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.logIn-container i {
+	font-size: 120px;
+	color: #ffff;
+	padding: 10px ;
+	padding-top: 20px;
+}
+.logIn-container input{
+	width:90%;
+	padding: 5px ;
+	margin-bottom: 10px;
+	font-family: "Josefin Sans", sans-serif;
+
+}
+.logIn-container label{
+	width: 100%;
+	display: block;
+	color:#ffff;
+	text-align:left;
+	margin-left: 23px;
+	font-family: "Josefin Sans", sans-serif;
+
+}
+.logIn-container input[type='password']{
+	width:90%;
+	padding: 5px ;
+	margin-bottom: 20px;
+	font-family: "Josefin Sans", sans-serif;
+
+}
+.logIn-container .button{
+	background-color: #097B7B;
+	color:#ffff;
+	border:none;
+	padding: 8px 50px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+
+}
+.logIn-container a,
+.logIn-container p{
+	margin-top: 10px;
+	color:#fff;
+	font-family: "Josefin Sans", sans-serif;
+	font-family: "Josefin Sans", sans-serif;
+
+}
+.register-box h1{
+	color:#000;
+	font-family: "Josefin Sans", sans-serif;
+    font-size: 35px;
+    padding-top: 20px;
+    font-weight:bold ;
+    color:#097B7B;
+}
+.register-container{
+	background-color: #C94700;
+	border-radius: 10px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	width: 550px ;
+	padding-top:20px ;
+}
+.register-container input{
+	width:90%;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+	font-family: "Josefin Sans", sans-serif;
+	border-radius: 5px;
+}
+.register-container input[type='password']{
+	width: 95%;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+	font-family: "Josefin Sans", sans-serif;
+	border-radius: 5px;
+}
+.register-container input[type='address']{
+	width: 95%;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+	font-family: "Josefin Sans", sans-serif;
+	border-radius: 5px;
+}
+.register-container label {
+	width: 100%;
+	display: block;
+	color:#ffff;
+	text-align:left;
+	margin-left: 12px;
+	font-family: "Josefin Sans", sans-serif;
+}
+.register-container button{
+	background-color: #097B7B;
+	color:#ffff;
+	border:none;
+	padding: 5px 50px;
+	margin-top: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 18px;
+}
+.img-dashboard{
+	background-image: url('../img/dashboard.png');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.sidebar { 
+	background-color: #C94700; 
+	color: #ffffff; 
+	min-height: 82vh; 
+	padding: 20px;
+	margin-top: 10px; 
+}
+.sidebar a { 
+	color: #cfd8dc; 
+	text-decoration: none; 
+	padding: 10px 15px; 
+	display: block; 
+	border-radius: 5px; 
+	transition: background 0.3s;
+    margin-left: 10px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.sidebar a:hover { 
+	background-color: #097B7B; 
+
+}
+.sidebar i{
+	font-size: 20px;
+}
+.sidebar i[class="fa fa-spoon"]{
+	font-size: 25px;
+	padding-left: 2px;
+}
+.sidebar h2{
+	margin-left: 23px;
+	font-family: "Josefin Sans", sans-serif;
+}
+.box1,.box2,.box3{
+	background-color: #172E2E;
+	opacity: 60%;
+	margin-top: 10px;
+	padding-bottom: 20px;
+}
+.box1 h3,
+.box3 h3,
+.box2 h3{
+	margin-top:80px;
+	color:#ffff;
+ 	font-family: "Josefin Sans", sans-serif;
+ 	padding: 10px;
+    text-align: center;
+    padding-top: 18px;
+}
+.box1 h1,
+.box2 h1,
+.box3 h1{
+	margin-top:13px;
+	color:#ffff;
+ 	font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+.new h2{
+	background-color: #097B7B; 
+	margin-top: 10px;
+	text-align: center;
+	width: 805px;
+	align-items: center;
+	margin: 0 auto;
+	padding: 10px 15px; 
+	margin-top: 10px;
+	color: #ffffff;
+}
+.filter-cat {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.search-cat {
+	text-align: right;
+}
+.filter-cat select,
+.filter-cat input{
+	width: 80%;
+	padding: 10px;
+	border-radius: 5px;
+}
+.item-container {
+	background-color: #EEEEEE;
+	width: 86.5%;
+	margin: 10px auto;
+	border-radius: 5px;
+	padding: 10px;
+}
+.item-box {
+	
+	margin-bottom: 10px;
+}
+.item-box .row {
+	background-color: #D9D9D9;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 2px 0;
+	margin-bottom: 10px;
+}
+.item-box h1 {
+	font-size: 28px;
+    margin: 0;
+}
+.item-box span {
+	display: block;
+}
+.item-box .button {
+	background-color: #097B7B;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 30px;
+	display: inline-block;
+}
+
+
+.card{
+	background-color: #EEEEEE;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	width: 632px;
+	margin-left: 20%;
+	padding: 2px;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 1rem;
+}
+
+.inputtext{
+	width: 100%;
+}
+
+.file-upload .upload-box {
+	height: 5rem;
+	width: 37rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.file-upload input[type="file"] {
+    display: none;
+}
+
+.addButton{
+	border-radius: 2rem;
+	background-color: #097B7B;
+	color: #fff;
+	font-size: 1.5rem;
+	width: 20rem;
+	height: 3rem;
+	margin-bottom: 2%
+}
